@@ -45,4 +45,5 @@ function currentLine (deliLine) {
 }
 
 var myLine = [];
-takeANumber("Patty");
+takeANumber(myLine, "Patty");
+console.log(currentLine(myLine));
