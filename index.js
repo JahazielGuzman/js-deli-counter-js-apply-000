@@ -46,8 +46,10 @@ function currentLine (deliLine) {
 
 var myLine = [];
 takeANumber(myLine, "Patty");
+console.log(nowServing(myLine));
 takeANumber2(myLine);
 takeANumber2(myLine);
 takeANumber2(myLine);
+console.log(nowServing(myLine));
 takeANumber2(myLine);
 console.log(currentLine(myLine));
