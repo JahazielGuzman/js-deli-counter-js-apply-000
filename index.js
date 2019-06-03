@@ -43,3 +43,6 @@ function currentLine (deliLine) {
   
   return lineString;
 }
+
+var myLine = [];
+takeANumber("Patty");
