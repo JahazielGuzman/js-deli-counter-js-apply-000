@@ -1,4 +1,4 @@
-var visitor = 0;
+var visitor = 500;
 
 function takeANumber(deliLine, newPerson) {
   
