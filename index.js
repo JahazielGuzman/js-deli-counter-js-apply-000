@@ -1,8 +1,18 @@
+var visitor = 0;
+
 function takeANumber(deliLine, newPerson) {
   
   deliLine.push(newPerson);
   
   return `Welcome, ${newPerson}. You are number ${deliLine.length} in line.`
+}
+
+function takeANumber2(deliLine) {
+  
+  visitor ++;
+  deliLine.push(visitor);
+  
+  return `Welcome, number ${visitor}. You are number ${deliLine.length} in line.`
 }
 
 function nowServing(deliLine) {
